@@ -1,29 +1,16 @@
-👋 Hi, I'm Santu Mondal
+# React + Vite
 
-Backend Developer specializing in:
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Node.js production systems
+Currently, two official plugins are available:
 
-PostgreSQL performance optimization
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-High-concurrency backend architecture
+## React Compiler
 
-Transaction-heavy financial logic
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-API scaling & bottleneck analysis
+## Expanding the ESLint configuration
 
-🔧 Core Expertise
-
-Query optimization & execution plans
-
-Index strategy design
-
-Lock & transaction analysis
-
-API latency reduction
-
-Database tuning for high-load systems
-
-Currently open for short-term backend performance optimization projects.
-
-This makes you look professional instantly.
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
