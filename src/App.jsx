@@ -1,5 +1,5 @@
 import React from 'react';
-import { Cpu, Terminal, Briefcase, Mail, Linkedin, Download, ExternalLink, Github, Database, Cloud, Layers, Smartphone } from 'lucide-react';
+import { Cpu, Terminal, Briefcase, Mail, Linkedin, Download, ExternalLink, Github, Database, Cloud, Layers, Smartphone, MessageCircle } from 'lucide-react';
 
 const App = () => {
   return (
@@ -24,12 +24,15 @@ const App = () => {
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white">Santu Mondal.</h1>
           <h3 className="text-3xl md:text-5xl font-bold text-slate-400 mb-8">Senior Backend Developer (Node.js).</h3>
           <p className="max-w-2xl text-slate-400 text-lg mb-10 leading-relaxed">
-            I have over 7 years of experience designing and developing scalable, high-performance RESTful APIs and backend systems. 
+            I have over 7 years of experience designing and developing scalable, high-performance RESTful APIs and backend systems.
             Strong expertise in <span className="text-slate-200">Node.js, Express.js, TypeScript, PostgreSQL, MongoDB, Redis caching, AWS deployment, and secure transaction systems.</span> Experienced in real-time application development, wallet and ledger systems, admin management portals, database optimization, and performance tuning.
           </p>
           <div className="flex flex-wrap gap-4">
-            <a href="mailto:pingsantu@gmail.com" className="px-6 py-3 bg-sky-500 hover:bg-sky-600 text-white rounded-lg font-semibold flex items-center transition-all">
-              <Mail className="mr-2 w-5 h-5" /> Get In Touch
+            <a href="mailto:pingsantu@gmail.com" className="px-6 py-3 bg-sky-500 hover:bg-sky-600 text-white rounded-lg font-semibold flex items-center transition-all shadow-lg shadow-sky-500/20">
+              <Mail className="mr-2 w-5 h-5" /> Email Me
+            </a>
+            <a href="https://wa.me/917980538315" target="_blank" rel="noreferrer" className="px-6 py-3 bg-emerald-500 hover:bg-emerald-600 text-white rounded-lg font-semibold flex items-center transition-all shadow-lg shadow-emerald-500/20">
+              <MessageCircle className="mr-2 w-5 h-5" /> WhatsApp
             </a>
             <a href="https://www.linkedin.com/in/santu-mondal-347b97210" target="_blank" rel="noreferrer" className="px-6 py-3 border border-sky-500 text-sky-400 hover:bg-sky-500/10 rounded-lg font-semibold flex items-center transition-all">
               <Linkedin className="mr-2 w-5 h-5" /> LinkedIn
@@ -86,9 +89,14 @@ const App = () => {
                 <li>• Implemented secure RBAC-based admin panel and automated result settlement system.</li>
               </ul>
             </div>
-            
+
             <div className="p-8 bg-slate-800/30 border border-slate-800 rounded-2xl hover:border-sky-500/50 transition-all group">
-              <h3 className="text-xl font-bold mb-2 text-white group-hover:text-sky-400">Camio Logistics App</h3>
+              <div className="flex justify-between items-start mb-2">
+                <h3 className="text-xl font-bold text-white group-hover:text-sky-400">Camio Logistics App</h3>
+                <a href="https://play.google.com/store/apps/details?id=com.camio.camioapp&hl=en_IN" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-sky-400" title="View Application">
+                  <ExternalLink className="w-5 h-5" />
+                </a>
+              </div>
               <p className="text-slate-400 text-sm mb-4">Backend & Admin Portal</p>
               <ul className="text-slate-400 text-sm space-y-2">
                 <li>• Developed booking, driver assignment, tracking, and pricing APIs.</li>
@@ -98,7 +106,12 @@ const App = () => {
             </div>
 
             <div className="p-8 bg-slate-800/30 border border-slate-800 rounded-2xl hover:border-sky-500/50 transition-all group">
-              <h3 className="text-xl font-bold mb-2 text-white group-hover:text-sky-400">Translangua Interpreter App</h3>
+              <div className="flex justify-between items-start mb-2">
+                <h3 className="text-xl font-bold text-white group-hover:text-sky-400">Translangua Interpreter App</h3>
+                <a href="https://translangua.com/" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-sky-400" title="View Application">
+                  <ExternalLink className="w-5 h-5" />
+                </a>
+              </div>
               <p className="text-slate-400 text-sm mb-4">Backend & Admin Management</p>
               <ul className="text-slate-400 text-sm space-y-2">
                 <li>• Developed secure booking and interpreter assignment workflows.</li>
@@ -108,7 +121,12 @@ const App = () => {
             </div>
 
             <div className="p-8 bg-slate-800/30 border border-slate-800 rounded-2xl hover:border-sky-500/50 transition-all group">
-              <h3 className="text-xl font-bold mb-2 text-white group-hover:text-sky-400">Teammate App</h3>
+              <div className="flex justify-between items-start mb-2">
+                <h3 className="text-xl font-bold text-white group-hover:text-sky-400">Teammate App</h3>
+                <a href="https://play.google.com/store/apps/details?id=com.teammate.app&hl=en_IN" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-sky-400" title="View Application">
+                  <ExternalLink className="w-5 h-5" />
+                </a>
+              </div>
               <p className="text-slate-400 text-sm mb-4">Backend & Admin System</p>
               <ul className="text-slate-400 text-sm space-y-2">
                 <li>• Built team collaboration APIs supporting 1,000+ active teams.</li>
