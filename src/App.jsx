@@ -28,7 +28,7 @@ const App = () => {
             Strong expertise in <span className="text-slate-200">Node.js, Express.js, TypeScript, PostgreSQL, MongoDB, Redis caching, AWS deployment, and secure transaction systems.</span> Experienced in real-time application development, wallet and ledger systems, admin management portals, database optimization, and performance tuning.
           </p>
           <div className="flex flex-wrap gap-4">
-            <a href="mailto:pingsantu@gmail.com" className="px-6 py-3 bg-sky-500 hover:bg-sky-600 text-white rounded-lg font-semibold flex items-center transition-all shadow-lg shadow-sky-500/20">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=pingsantu@gmail.com" target="_blank" rel="noreferrer" className="px-6 py-3 bg-sky-500 hover:bg-sky-600 text-white rounded-lg font-semibold flex items-center transition-all shadow-lg shadow-sky-500/20">
               <Mail className="mr-2 w-5 h-5" /> Email Me
             </a>
             <a href="https://wa.me/917980538315" target="_blank" rel="noreferrer" className="px-6 py-3 bg-emerald-500 hover:bg-emerald-600 text-white rounded-lg font-semibold flex items-center transition-all shadow-lg shadow-emerald-500/20">
